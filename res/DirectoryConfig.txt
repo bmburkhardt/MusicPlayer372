@@ -1,0 +1,21 @@
+#DirectoryConfig.txt
+# V2.2
+#	If you move this file or change its name, update ../include/directoryMannager.hpp
+#	If this file is deleted or can't be read, DirectoryManager automatically only looks into "../res/audio" 
+#	The Program will run overrides and repositories in order listed in this file. You can set an override,
+#		then list a directory, then change the override and list another directory if needed.
+
+#	If the directory is on a different drive, you must use a direct path to find the 
+#	external folder. (Must have permissions)
+
+
+#  UniqueSongOverride:
+#	false -> if program finds multiple songs of same name in different directories, will NOT add both
+#	true  -> if program finds multiple songs of same name in different directories, it adds both
+
+#List of orders to run start here:
+
+
+UniqueSongOverride = false
+../res/audio
+
